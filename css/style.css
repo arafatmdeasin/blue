@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background: #121b2a;
+    padding: 13px 10px;
+    box-shadow: 0px 7px 10px 0px rgb(18 27 42);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    /* border: 1px solid; */
+}
+
+.logo {
+    width: 20%;
+    float: left;
+    /* border: 1px solid; */
+}
+
+.logo img {}
+
+nav {
+    width: 70%;
+    /* color: white; */
+    float: right;
+    /* border: 1px solid; */
+    padding: 36px 0;
+}
+
+nav ul {
+    float: right;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    font-size: 17px;
+    /* padding: 0 55px 0 0; */
+    margin: 0 0 0 40px;
+    color: #c7caca;
+    transition: color 1s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #0278c1;
+}
+
+
+.banner-section {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    position: relative;
+}
+
+.container2 {
+    width: 80%;
+    margin: 0px auto 0;
+    overflow: hidden;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+}
+
+.banner-content {
+    /* display: block; */
+    width: 50%;
+}
+
+.banner-content h1 {
+    color: #F3F2F3;
+    font-size: 40px;
+}
+
+.banner-content span {
+    color: #0076B7;
+    font-size: 49px;
+}
+
+.banner-content p {
+    color: #CCCFD2;
+    line-height: 26px;
+    font-size: 18px;
+}
+
+.banner-content a {
+    display: inline-block;
+    color: #5D5D5D;
+    background: white;
+    margin-top: 25px;
+    padding: 12px 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.banner-content a:hover {}
+
+.service-section {
+    background: #121b2a;
+    padding: 25px 0 10px;
+}
+
+.container3 {
+    width: 80%;
+    margin: 0px auto 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.single-service {
+    width: 30%;
+    border-right: 1px solid #37373763;
+    padding: 37px 137px 23px 0;
+}
+
+.single-service:last-child {
+    border: none;
+}
+
+.service-heading {
+    overflow: hidden;
+}
+
+.service-heading .icon {
+    float: left;
+    margin: 0 15px 12px 0px;
+}
+
+.service-heading .icon img {}
+
+.service-heading h2 {
+    float: left;
+    color: #F3F2F3;
+    margin-top: 19px;
+}
+
+.service-heading span {
+    font-size: 27px;
+    color: #0076B7;
+}
+
+article {
+    color: #CCCFD2;
+
+}
